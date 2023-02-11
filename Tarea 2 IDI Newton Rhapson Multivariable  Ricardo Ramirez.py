@@ -12,9 +12,6 @@ import autograd.numpy as np
 
 #PARA 3 VARIABLES
 
-#func1 = lambda x: 3*x[0]-np.cos(x[1]*x[2])-(3/2)
-#func2 = lambda x: 4*(x[0]**2) - 625* (x[1]**2) + 2*x[2] - 1
-#func3 = lambda x: 20*x[2]+ np.exp(-x[0]*x[1]) + 9
 
 
 jac_func1 = jacobian(func1)
